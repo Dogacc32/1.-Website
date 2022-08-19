@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Finlandica', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+    color:white;
+    
+}
+
+html {
+    font-size: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 1.6rem 0;
+}
+
+header {
+    height: 460px;
+  
+}
+
+header .bg-image {
+    position: absolute;
+    background-image: url(IMG_5118\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+header h1{
+    padding: 120px;
+    padding-bottom: 0px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 16px 32px;
+    border: 1px solid #666;
+    margin: 0.5rem 0;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: #333;
+}
+
+.section-a{
+    background-color: white;
+    color: #333;
+    padding: 2rem ;
+}
+
+.section-b{
+    padding: 2rem;
+    
+}
+
+.section-b ul{
+    list-style: none;
+}
+
+.section-b li{
+    background-color: white;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.col-content{
+    padding: 15px;
+}
+
+.section-c{
+    background-color: white;
+    color: #333;
+    padding: 50px;
+}
+.section-d{
+    padding: 50px;
+    background-color: skyblue;
+    color: #333;
+}
+.section-e{
+    background-color: bisque;
+    padding: 50px;
+    color: #333;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    
+    
+}
+a{
+    color:chartreuse;
+}
+
+@media screen and (min-width:800px) {
+    html{
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    html{
+        font-size: 11px;
+    }
+    .section-b li{
+        display: inline-block;
+        width: 28%;
+        margin: 1%;
+    }
+
+   
+}
+
+
