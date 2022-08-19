@@ -1,2 +1,2 @@
-# 1.-Website
+# 1.Website
 HTML&amp;CSS ile yaptığım ilk website
